@@ -9,3 +9,8 @@ export const siteData = {
     linkedin: "https://linkedin.com/in/muhammad-hashiq",
   },
 };
+
+export const skills = [
+  "Next.js", "React", "TypeScript", "Tailwind CSS", 
+  "Node.js", "Framer Motion", "GSAP", "Git"
+];
