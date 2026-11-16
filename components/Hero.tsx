@@ -10,7 +10,7 @@ export default function Hero() {
         Hi, I'm {siteData.name}.
       </p>
       
-      <h1 className="max-w-3xl text-5xl font-bold tracking-tight md:text-7xl">
+      <h1 className="text-fluid-hero max-w-4xl font-bold tracking-tight">
         I build things for the <span className="text-[var(--accent)]">web.</span>
       </h1>
       

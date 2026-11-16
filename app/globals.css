@@ -19,11 +19,25 @@ body {
   font-family: var(--font-jetbrains-mono), monospace;
 }
 
-  @keyframes marquee {
+@keyframes marquee {
   0% { transform: translateX(0%); }
   100% { transform: translateX(-50%); }
 }
 
 .animate-marquee {
   animation: marquee 20s linear infinite;
+}
+
+.text-fluid-hero {
+  font-size: clamp(2.5rem, 8vw, 6rem);
+  line-height: 1.1;
+}
+
+.text-fluid-h2 {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  line-height: 1.2;
+}
+
+.text-fluid-h3 {
+  font-size: clamp(1.25rem, 3vw, 1.75rem);
 }

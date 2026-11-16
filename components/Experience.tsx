@@ -11,7 +11,7 @@ export default function Experience() {
             {/* Timeline dot */}
             <div className="absolute -left-[31px] top-1.5 h-4 w-4 rounded-full bg-[var(--bg)] border-2 border-[var(--accent)]"></div>
             
-            <h3 className="text-xl font-bold text-[var(--text)]">
+            <h3 className="text-fluid-h3 font-bold text-[var(--text)]">
               {job.role} <span className="text-[var(--accent)]">@ {job.company}</span>
             </h3>
             <p className="mono text-sm text-[var(--muted)] mb-4">{job.date}</p>

@@ -3,7 +3,7 @@ export default function About() {
     <section id="about" className="px-6 py-24 mx-auto max-w-5xl">
       <h2 className="mono text-sm text-[var(--accent)] mb-8">01. About Me</h2>
       
-      <div className="grid gap-12 md:grid-cols-2">
+      <div className="grid grid-cols-1 gap-12 md:grid-cols-2 items-center">
         <div className="space-y-4 text-[var(--muted)]">
           <p>
             Hello! I'm Muhammad Hashiq, an Associate Project Manager who loves building things for the web. 
