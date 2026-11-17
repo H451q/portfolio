@@ -1,8 +1,7 @@
-// lib/data.ts
 export const siteData = {
   name: "Muhammad Hashiq",
-  role: "Associate Project Manager",
-  tagline: "I build things for the web.",
+  role: "Data & Business Analyst",
+  tagline: "I turn complex data into actionable business insights.",
   email: "muhammadhashiq23@gmail.com",
   socials: {
     github: "https://github.com/H451q",
@@ -11,29 +10,28 @@ export const siteData = {
 };
 
 export const skills = [
-  "Next.js", "React", "TypeScript", "Tailwind CSS", 
-  "Node.js", "Framer Motion", "GSAP", "Git"
+  "SQL", "Python", "Power BI", "Tableau", "Excel", "Data Modeling", "Firebase", "Next.js"
 ];
 
 export const projects = [
   {
-    title: "Project One",
-    description: "A brief description of what this project does and why it's cool.",
-    tech: ["React", "Next.js", "Tailwind"],
+    title: "Sales Performance Dashboard",
+    description: "An interactive Power BI dashboard tracking regional sales metrics and identifying revenue growth opportunities.",
+    tech: ["Power BI", "SQL", "DAX"],
     github: "https://github.com/H451q/project-one",
     live: "https://project-one.vercel.app",
   },
   {
-    title: "Project Two",
-    description: "Another awesome project showcasing your skills.",
-    tech: ["TypeScript", "Node.js", "MongoDB"],
+    title: "Customer Churn Analysis",
+    description: "A predictive model using Python and Scikit-learn to identify at-risk customers and suggest retention strategies.",
+    tech: ["Python", "Pandas", "Scikit-learn"],
     github: "https://github.com/H451q/project-two",
     live: "https://project-two.vercel.app",
   },
   {
-    title: "Project Three",
-    description: "A third project that highlights your best work.",
-    tech: ["Next.js", "Framer Motion", "Vercel"],
+    title: "Market Research Report",
+    description: "Data cleaning and exploratory data analysis on FMCG market trends using Python and Excel.",
+    tech: ["Python", "Excel", "Data Cleaning"],
     github: "https://github.com/H451q/project-three",
     live: "https://project-three.vercel.app",
   }
@@ -41,15 +39,15 @@ export const projects = [
 
 export const experience = [
   {
-    role: "Frontend Developer",
-    company: "Company Name",
+    role: "Associate Project Manager",
+    company: "Tech Company",
     date: "2023 - Present",
-    description: "Building responsive and accessible web applications."
+    description: "Bridging the gap between data insights and business strategy, managing cross-functional teams to deliver analytics projects."
   },
   {
-    role: "Junior Developer",
+    role: "Data Analyst",
     company: "Previous Company",
     date: "2021 - 2023",
-    description: "Learned the ropes and shipped features."
+    description: "Built automated reporting pipelines and created dashboards to track key performance indicators (KPIs)."
   }
 ];

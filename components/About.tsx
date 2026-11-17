@@ -1,7 +1,7 @@
 export default function About() {
   return (
-    <section id="about" className="px-6 py-24 mx-auto max-w-5xl">
-      <h2 className="mono text-sm text-[var(--accent)] mb-8">01. About Me</h2>
+    <section id="about" className="animate-fade-up px-6 py-24 mx-auto max-w-5xl">
+      <h2 className="mono text-sm text-[var(--highlight)] mb-8">01. About Me</h2>
       
       <div className="grid grid-cols-1 gap-12 md:grid-cols-2 items-center">
         <div className="space-y-4 text-[var(--muted)]">
@@ -25,7 +25,7 @@ export default function About() {
         
         {/* Placeholder for Photo */}
         <div className="relative group max-w-[300px] mx-auto md:mx-0 md:ml-auto">
-          <div className="absolute inset-0 border-2 border-[var(--accent)] translate-x-4 translate-y-4 rounded transition-transform group-hover:translate-x-2 group-hover:translate-y-2"></div>
+          <div className="absolute inset-0 border-2 border-[var(--highlight)] translate-x-4 translate-y-4 rounded transition-transform group-hover:translate-x-2 group-hover:translate-y-2"></div>
           <div className="relative bg-[var(--card)] border border-[var(--border)] aspect-square flex items-center justify-center overflow-hidden">
             <span className="mono text-[var(--muted)]">Your Photo Here</span>
           </div>

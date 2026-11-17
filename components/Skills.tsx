@@ -12,7 +12,7 @@ export default function Skills() {
             <span className="mono text-sm font-bold text-[var(--muted)]">
               {skill}
             </span>
-            <span className="ml-12 text-[var(--accent)] text-xs">✦</span>
+            <span className="ml-12 text-[var(--highlight)] text-xs">✦</span>
           </div>
         ))}
       </div>
